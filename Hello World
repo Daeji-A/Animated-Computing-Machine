@@ -1,0 +1,8 @@
+data = '{  "fullname"  ;  "Ayodeji Amkpa",  "ID"   ;  "HNG -05895" ,  "language" ;  "python" ,  email" ;  " bjamkpa@gmail.com"}'
+
+j_son = json,loads(data);
+
+info = "Hello World, this is {}  with HNGi7 ID;  {}  for stage 2 task"  ,format(j_son[ 'fullname' ],  j_son[ 'ID' ],  j_son[ 'language' ])
+
+
+print(info) 
